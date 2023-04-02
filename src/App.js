@@ -11,7 +11,7 @@ import Error from './pages/Error';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#4db6ac',
+      main: '#8cddf2',
     },
     secondary: {
       main: '#ff7043',
