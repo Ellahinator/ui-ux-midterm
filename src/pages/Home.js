@@ -5,7 +5,7 @@ import placeholder from '../logo.svg';
 function Home() {
   return (
     <Box sx={{ textAlign: 'center', mt: 4 }}>
-      <img src={heroImage} alt="Pediatrician and child" style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }} />
+      <img src={placeholder} alt="Pediatrician and child" style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }} />
       <Typography variant="h4" sx={{ mt: 3 }}>
         Welcome to Our Pediatric Practice
       </Typography>
