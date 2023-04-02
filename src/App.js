@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import AppointmentRequests from './pages/AppointmentRequests';
 import Reviews from './pages/Reviews';
+import Error from './pages/Error';
 
 const theme = createTheme({
   palette: {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/appointment-requests" element={<AppointmentRequests />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </Router>
     </ThemeProvider>
