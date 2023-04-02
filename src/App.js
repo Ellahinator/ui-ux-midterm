@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+import AppointmentRequests from './pages/AppointmentRequests';
 
 const theme = createTheme({
   palette: {
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/appointment-requests" element={<AppointmentRequests />} />
         </Routes>
       </Router>
     </ThemeProvider>
