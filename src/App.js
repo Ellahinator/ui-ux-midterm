@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Navbar from './components/Navbar';
-
 import Home from './pages/Home';
+import About from './pages/About';
 
 const theme = createTheme({
   palette: {
@@ -33,6 +33,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     </ThemeProvider>
