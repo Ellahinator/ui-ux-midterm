@@ -13,7 +13,7 @@ function Navbar() {
         </Box>
         <Button color="inherit" component={Link} to="/about">About</Button>
         <Button color="inherit" component={Link} to="/appointment-requests">Appointment Requests</Button>
-        {/* <Button color="inherit" component={Link} to="/see-reviews">See Reviews</Button> */}
+        <Button color="inherit" component={Link} to="/reviews">Reviews</Button>
       </Toolbar>
     </AppBar>
   );

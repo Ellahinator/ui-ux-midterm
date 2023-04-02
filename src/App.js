@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import AppointmentRequests from './pages/AppointmentRequests';
+import Reviews from './pages/Reviews';
 
 const theme = createTheme({
   palette: {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/appointment-requests" element={<AppointmentRequests />} />
+          <Route path="/reviews" element={<Reviews />} />
         </Routes>
       </Router>
     </ThemeProvider>
