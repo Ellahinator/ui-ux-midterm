@@ -10,6 +10,7 @@ import Error from './pages/Error';
 
 const theme = createTheme({
   palette: {
+    mode: 'light',
     primary: {
       main: '#8cddf2',
     },
