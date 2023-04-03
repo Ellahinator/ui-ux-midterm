@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button, Typography, Box, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
-import reviewImage from '../assets/review.jpeg';
+import reviewImage from '../assets/review.png';
+
 
 function Reviews() {
   return (
