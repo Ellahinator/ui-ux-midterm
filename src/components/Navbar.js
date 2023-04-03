@@ -5,7 +5,7 @@ import { Home, Info, EventNote, RateReview } from '@mui/icons-material';
 
 function Navbar() {
   return (
-    <AppBar position="static" sx={{ backgroundColor: (theme) => theme.palette.primary.main }}>
+    <AppBar position="fixed" sx={{ backgroundColor: (theme) => theme.palette.primary.main }}>
       <Toolbar>
         <Box flexGrow={1}>
         <IconButton color="inherit" component={Link} to="/">
