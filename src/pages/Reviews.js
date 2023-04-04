@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Typography, Box, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { OpenInNew } from '@mui/icons-material';
 import reviewImage from '../assets/review.png';
-
 
 function Reviews() {
   return (
@@ -11,7 +11,7 @@ function Reviews() {
         minHeight: '100vh',
         paddingTop: 8,
         background: (theme) =>
-          `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.secondary.main} 100%)`,
+          `linear-gradient(135deg, white 0%, ${theme.palette.primary.main} 100%)`,
       }}
     >
       <Grid container alignItems="center" justifyContent="center">
@@ -38,6 +38,7 @@ function Reviews() {
               target="_blank"
               rel="noopener noreferrer"
               sx={{ m: 1, mt: 2 }}
+              endIcon={<OpenInNew />}
             >
               Site 1
             </Button>
@@ -49,6 +50,7 @@ function Reviews() {
               target="_blank"
               rel="noopener noreferrer"
               sx={{ m: 1, mt: 2 }}
+              endIcon={<OpenInNew />}
             >
               Site 2
             </Button>
