@@ -6,22 +6,34 @@ function About() {
   return (
     <div>
       {/* Main content */}
-      <Container>
-        <Grid container spacing={2} alignItems="center" style={{ minHeight: 'calc(100vh - 60px)' }}>
+      <Container maxWidth="x1">
+      <Grid container spacing={2} alignItems="center" sx={{ minHeight: 'calc(100vh - 60px)', marginTop: (theme) => theme.spacing(8) }}>
           {/* Image */}
           <Grid item xs={12} md={6}>
-            <Box>
+            <Box
+              sx={{
+                width: '100%',
+                maxWidth: '800px',
+                height: 'calc(100vh - 60px)',
+                borderRadius: '8px',
+                overflow: 'hidden',
+              }}
+            >
               <img
                 src={portrait}
                 alt="Office"
-                style={{ width: '100%', maxWidth: '800px', borderRadius: '8px' }}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                }}
               />
             </Box>
           </Grid>
 
           {/* About text */}
           <Grid item xs={12} md={6}>
-            <Box sx={{ textAlign: 'center', mt: 4 }}>
+            <Box sx={{ textAlign: 'center', mt: 4, maxWidth: '800px' }}>
               <Typography variant="h4" component="div">
                 <Box component="span" borderBottom={2} borderColor="secondary.main">
                   About Dr. X
@@ -30,10 +42,10 @@ function About() {
               <Typography variant="body1" sx={{ mt: 2 }}>
                 Dr. X graduated from Hunter College, with over{' '}
                 <Box component="span" color="secondary.main">15 years</Box>{' '}
-                of experience in pediatric care. She specializes in child development and preventive care.
+                of experience in pediatric care. He specializes in child development and preventive care.
               </Typography>
             </Box>
-            <Box sx={{ textAlign: 'center', mt: 4 }}>
+            <Box sx={{ textAlign: 'center', mt: 4, maxWidth: '800px' }}>
               <Typography variant="h4" component="div">
                 <Box component="span" borderBottom={2} borderColor="secondary.main">
                   Our Practice

@@ -38,10 +38,10 @@ function Home() {
                 <Button variant="contained" component={Link} to = "/about">About</Button>
               </Grid>
               <Grid item>
-                <Button variant="contained" component={Link} to = "/reviews">Reviews</Button>
+                <Button variant="contained" component={Link} to = "/appointment-requests">Appointment Requests</Button>
               </Grid>
               <Grid item>
-                <Button variant="contained" component={Link} to = "/appointment-requests">Appointment Request</Button>
+                <Button variant="contained" component={Link} to = "/reviews">Reviews</Button>
               </Grid>
             </Grid>
           </Grid>
