@@ -13,9 +13,15 @@ const theme = createTheme({
     mode: 'light',
     primary: {
       main: '#8cddf2',
+      light: '#A3E3F4',
+      dark: '#629AA9',
+      contrastText: 'rgba(0, 0, 0, 0.87)',    
     },
     secondary: {
-      main: '#f2a18c',
+      main: '#f2a18c', 
+      light: '#F4B3A3',
+      dark: '#A97262',
+      contrastText: 'rgba(0, 0, 0, 0.87)',
     },
   },
   typography: {
