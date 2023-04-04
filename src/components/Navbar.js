@@ -15,7 +15,7 @@ function Navbar() {
             variant="h6"
             component={Link}
             to="/"
-            sx={{ textDecoration: 'none', color: (theme) => theme.palette.common.black }}
+            sx={{ textDecoration: 'none', color: (theme) => theme.palette.primary.contrastText , fontWeight: 'bold'}}
           >
             Our Pediatric Practice
           </Typography>
@@ -25,7 +25,7 @@ function Navbar() {
           component={Link}
           to="/about"
           startIcon={<Info />}
-          sx={{ '&:hover': { textDecoration: 'underline' } }}
+          sx={{ '&:hover': { textDecoration: 'underline', color: (theme) => theme.palette.secondary.dark } }}
         >
           About
         </Button>
@@ -34,7 +34,7 @@ function Navbar() {
           component={Link}
           to="/appointment-requests"
           startIcon={<EventNote />}
-          sx={{ '&:hover': { textDecoration: 'underline' } }}
+          sx={{ '&:hover': { textDecoration: 'underline', color: (theme) => theme.palette.secondary.dark } }}
         >
           Appointment Requests
         </Button>
@@ -43,7 +43,7 @@ function Navbar() {
           component={Link}
           to="/reviews"
           startIcon={<RateReview />}
-          sx={{ '&:hover': { textDecoration: 'underline' } }}
+          sx={{ '&:hover': { textDecoration: 'underline', color: (theme) => theme.palette.secondary.dark } }}
         >
           Reviews
         </Button>
