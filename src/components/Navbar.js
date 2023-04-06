@@ -8,14 +8,19 @@ function Navbar() {
     <AppBar position="fixed" sx={{ backgroundColor: (theme) => theme.palette.primary.main }}>
       <Toolbar>
         <Box flexGrow={1}>
-        <IconButton color="inherit" component={Link} to="/">
-          <Home />
-        </IconButton>
           <Typography
             variant="h6"
             component={Link}
             to="/"
-            sx={{ textDecoration: 'none', color: (theme) => theme.palette.primary.contrastText , fontWeight: 'bold'}}
+            sx={{ 
+                textDecoration: 'none', 
+                color: (theme) => theme.palette.primary.contrastText, 
+                fontWeight: 'bold',
+                '&:hover': {
+                    color: (theme) => theme.palette.secondary.main,
+                    cursor: 'pointer',
+                  },
+            }}
           >
             Our Pediatric Practice
           </Typography>
