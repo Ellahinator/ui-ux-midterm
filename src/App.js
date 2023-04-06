@@ -18,10 +18,10 @@ const theme = createTheme({
       contrastText: 'rgba(0, 0, 0, 0.87)',    
     },
     secondary: {
-      main: '#f2a18c', 
-      light: '#F4B3A3',
-      dark: '#A97262',
-      contrastText: 'rgba(0, 0, 0, 0.87)',
+      main: '#536dfe', 
+      light: '#758AFE',
+      dark: '#3A4CB1',
+      contrastText: '#fff',
     },
   },
   typography: {
