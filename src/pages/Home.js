@@ -35,13 +35,43 @@ function Home() {
             {/* Buttons */}
             <Grid container spacing={2} sx={{ mt: 3 }}>
               <Grid item>
-                <Button variant="contained" component={Link} to = "/about">About</Button>
+                <Button 
+                  variant="contained" 
+                  component={Link} 
+                  to = "/about"
+                  sx={{
+                    '&:hover': {
+                      backgroundColor: (theme) => theme.palette.secondary.main,
+                      color: (theme) => theme.palette.secondary.contrastText,
+                    },
+                  }} 
+                >About</Button>
               </Grid>
               <Grid item>
-                <Button variant="contained" component={Link} to = "/appointment-requests">Appointment Requests</Button>
+                <Button 
+                  variant="contained" 
+                  component={Link} 
+                  to = "/appointment-requests"
+                  sx={{
+                    '&:hover': {
+                      backgroundColor: (theme) => theme.palette.secondary.main,
+                      color: (theme) => theme.palette.secondary.contrastText,
+                    },
+                  }}
+                >Appointment Requests</Button>
               </Grid>
               <Grid item>
-                <Button variant="contained" component={Link} to = "/reviews">Reviews</Button>
+                <Button 
+                  variant="contained" 
+                  component={Link} 
+                  to = "/reviews"
+                  sx={{
+                    '&:hover': {
+                      backgroundColor: (theme) => theme.palette.secondary.main,
+                      color: (theme) => theme.palette.secondary.contrastText,
+                    },
+                  }}
+                >Reviews</Button>
               </Grid>
             </Grid>
           </Grid>

@@ -49,7 +49,13 @@ function AppointmentRequests() {
               to={{ pathname: 'https://appointment-service.com' }}
               target="_blank"
               rel="noopener noreferrer"
-              sx={{ mt: 2 }}
+              sx={{ 
+                mt: 2, 
+                '&:hover': {
+                  backgroundColor: (theme) => theme.palette.secondary.main,
+                  color: (theme) => theme.palette.secondary.contrastText,
+                },
+              }}
               endIcon={<OpenInNew />}
             >
               Request an Appointment
