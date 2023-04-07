@@ -5,7 +5,7 @@ import { Info, EventNote, RateReview } from '@mui/icons-material';
 
 function Navbar() {
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: (theme) => theme.palette.primary.main }}>
+    <AppBar position="fixed" sx={{ backgroundColor: (theme) => theme.palette.primary.main, borderBottom: (theme) => `1px solid ${theme.palette.secondary.main}` }}>
       <Toolbar>
         <Box flexGrow={1}>
           <Typography

@@ -87,8 +87,8 @@ function Reviews() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
-            <Typography variant="h6" sx={{ mt: 2, mb: 2 }}>
-              What Our Customers Are Saying
+            <Typography variant="h5" sx={{ mt: 2, mb: 2 }}>
+              Featured Reviews
             </Typography>
         <Card sx={{ maxWidth: 600, position: 'relative', pl:3, pr:3 }}>
           <CardContent>

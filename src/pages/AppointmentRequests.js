@@ -36,7 +36,6 @@ function AppointmentRequests() {
               backgroundColor: 'rgba(255, 255, 255, 0.1)', 
               borderRadius: '8px',
               p: 3,
-            //   border: (theme) => `2px solid ${theme.palette.secondary.main}`, 
             }}
           >
             <Typography variant="h4" >Appointment Requests</Typography>
