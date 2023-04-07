@@ -1,7 +1,7 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Button, Box, IconButton } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { Home, Info, EventNote, RateReview } from '@mui/icons-material';
+import { Info, EventNote, RateReview } from '@mui/icons-material';
 
 function Navbar() {
   return (
