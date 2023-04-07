@@ -8,3 +8,5 @@ $ cd ui-ux-midterm/
 $ npm install
 $ npm start
 ```
+
+# Grade [x]
